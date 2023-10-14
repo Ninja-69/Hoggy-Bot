@@ -68,7 +68,7 @@ module.exports = class extends Command {
           true
         );
       }
-      embed.setTitle(`Pogy's Command List`);
+      embed.setTitle(`Hogy's Command List`);
       embed.setDescription(stripIndent`
         <:purple:826033456207233045> The Prefix for this server is \`${prefix}\`
   
@@ -82,9 +82,9 @@ module.exports = class extends Command {
 
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/,itzmeninja) | " +
+          "[Dashboard](https://linkhere.com)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -115,9 +115,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (args && args[0].toLowerCase() == "owner") {
@@ -151,9 +151,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -186,9 +186,9 @@ module.exports = class extends Command {
 
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
 
       return message.channel.sendCustom({ embeds: [embed] });
@@ -221,9 +221,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -255,9 +255,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -289,9 +289,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (args && args[0].toLowerCase() == "fun") {
@@ -320,9 +320,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -354,9 +354,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -388,9 +388,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -421,9 +421,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       return message.channel.sendCustom({ embeds: [embed] });
     } else if (
@@ -455,9 +455,9 @@ module.exports = class extends Command {
       embed.setTimestamp();
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
 
       return message.channel.sendCustom({ embeds: [embed] });
@@ -483,9 +483,9 @@ module.exports = class extends Command {
       );
       embed.addField(
         "\u200b",
-        "**[Invite](https://invite.pogy.xyz) | " +
-          "[Support Server](https://pogy.xyz/support) | " +
-          "[Dashboard](https://pogy.xyz/dashboard)**"
+        "**[Invite](https://discord.com/api/oauth2/authorize?client_id=1138885064034361415&permissions=8&scope=bot) | " +
+          "[Support Server](https://dsc.gg/itzmeninja) | " +
+          "[Dashboard](https://dsc.gg/itzmeninja)**"
       );
       embed.setFooter({
         text: `Requested by ${message.author.username}`,
@@ -512,7 +512,7 @@ module.exports = class extends Command {
 
       embed.setTitle(`Command: ${cmd.name}`);
       embed.setDescription(cmd.description);
-      embed.setThumbnail(`https://v2.pogy.xyz/logo.png`);
+      embed.setThumbnail(`https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8`);
       embed.setFooter(
         cmd.disabled ||
           disabledCommands.includes(args[0] || args[0].toLowerCase())
