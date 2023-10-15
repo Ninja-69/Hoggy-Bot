@@ -35,10 +35,10 @@ module.exports = class extends Command {
       const embed = new MessageEmbed()
         .setAuthor(message.author.tag, message.author.displayAvatarURL())
         .setDescription(
-          `**Proper Usage:**\n\n\`1-\` unban peter_#4444 appealed\n\`2-\` unban 710465231779790849 appealed\n\`3-\` unban all`
+          `**Proper Usage:**\n\n\`1-\` unban Ninja.69 appealed\n\`2-\` unban 710465231779790849 appealed\n\`3-\` unban all`
         )
         .setColor(message.client.color.red)
-        .setFooter({ text: "https://pogy.xyz/" });
+        .setFooter({ text: "Hogy ~ Ninja.69" });
 
       message.channel.sendCustom({ embeds: [embed] });
       return;

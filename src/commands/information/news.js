@@ -1,5 +1,5 @@
 const Command = require("../../structures/Command");
-const Guild = require("../../database/schemas/Pogy");
+const Guild = require("../../database/schemas/Hogy");
 const Guildd = require("../../database/schemas/Guild");
 const { MessageEmbed } = require("discord.js");
 const moment = require("moment");
@@ -9,7 +9,7 @@ module.exports = class extends Command {
   constructor(...args) {
     super(...args, {
       name: "news",
-      description: `Shows Pogy's latest news`,
+      description: `Shows Hogy's latest news`,
       category: "Information",
       cooldown: 3,
     });
@@ -28,15 +28,15 @@ module.exports = class extends Command {
 
     let embed = new MessageEmbed()
       .setColor(message.guild.me.displayHexColor)
-      .setTitle(`Pogy News`)
+      .setTitle(`Hogy News`)
       .setDescription(
         `***__${language.datePublished}__ ${moment(guildDB.time).format(
           "dddd, MMMM Do YYYY"
         )}*** *__[\`(${moment(
           guildDB.time
-        ).fromNow()})\`](https://pogy.xyz)__*\n\n ${guildDB.news}`
+        ).fromNow()})\`](https://urdash.xyz)__*\n\n ${guildDB.news}`
       )
-      .setFooter({ text: "https://pogy.xyz/" })
+      .setFooter({ text: "https://urdash.xyz/" })
       .setTimestamp();
 
     message.channel.sendCustom({ embeds: [embed] }).catch(() => {

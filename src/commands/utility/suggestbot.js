@@ -87,13 +87,13 @@ module.exports = class extends Command {
       .addField("Member", `${message.member}`, true)
       .addField("Message", `${report}`, true)
       .addField("Suggestion ID:", `#${id}`, true)
-      .setFooter({ text: "https://pogy.xyz/" })
+      .setFooter({ text: "Hogy ~ Ninja.69" })
       .setTimestamp()
       .setColor("GREEN");
 
     webhookClient.sendCustom({
-      username: "Pogy Suggestions",
-      avatarURL: `https://v2.pogy.xyz/logo.png`,
+      username: "Hogy Suggestions",
+      avatarURL: `https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8`,
       embeds: [embed],
     });
 

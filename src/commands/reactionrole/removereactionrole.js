@@ -43,7 +43,7 @@ module.exports = class extends Command {
           new MessageEmbed()
             .setAuthor(message.author.tag, message.author.displayAvatarURL())
             .setDescription(`${fail} Provide me with a valid Channel`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(client.color.red),
         ],
       });
@@ -55,7 +55,7 @@ module.exports = class extends Command {
           new MessageEmbed()
             .setAuthor(message.author.tag, message.author.displayAvatarURL())
             .setDescription(`${fail} Provide me with a valid message ID`)
-            .setFooter({ text: "https://pogy.xyz/" }),
+            .setFooter({ text: "Hogy ~ Ninja.69" }),
         ],
       });
     let messageID = await channel.messages.fetch(ID).catch(() => {
@@ -64,7 +64,7 @@ module.exports = class extends Command {
           new MessageEmbed()
             .setAuthor(message.author.tag, message.author.displayAvatarURL())
             .setDescription(`${fail} I could not find the following ID`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(client.color.red),
         ],
       });
@@ -78,7 +78,7 @@ module.exports = class extends Command {
           new MessageEmbed()
             .setAuthor(message.author.tag, message.author.displayAvatarURL())
             .setDescription(`${fail} Provide me with a valid Emoji`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(client.color.red),
         ],
       });
@@ -93,7 +93,7 @@ module.exports = class extends Command {
           .setDescription(
             `${success} Deleted The [Reaction Role](${messageID.url})`
           )
-          .setFooter({ text: "https://pogy.xyz/" }),
+          .setFooter({ text: "Hogy ~ Ninja.69" }),
       ],
     });
   }

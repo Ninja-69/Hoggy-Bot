@@ -76,7 +76,7 @@ module.exports = class extends Command {
         .setAuthor(message.author.tag, message.guild.iconURL({ dynamic: true }))
         .setDescription(description)
         .addField("Disabled Commands", disabledd, true)
-        .setFooter({ text: "https://v2.pogy.xyz/" })
+        .setFooter({ text: "https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8" })
         .setTimestamp()
         .setColor(message.client.color.green);
 
@@ -88,7 +88,7 @@ module.exports = class extends Command {
           )
           .setDescription(description)
           .addField("Disabled Commands", `[Too Large to Display]`, true)
-          .setFooter({ text: "https://v2.pogy.xyz/" })
+          .setFooter({ text: "Hogy ~ Ninja.69" })
           .setTimestamp()
           .setColor(message.client.color.green);
         message.channel.sendCustom(errorEmbed).catch(() => {});

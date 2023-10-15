@@ -14,7 +14,7 @@ module.exports = class extends Command {
       description: "Warns a member purge their specified messages",
       category: "Moderation",
       usage: "<user> [reason]",
-      examples: ["warnpurge @pogy 10."],
+      examples: ["warnpurge @Hogy 10."],
       guildOnly: true,
       botPermission: [
         "SEND_MESSAGES",

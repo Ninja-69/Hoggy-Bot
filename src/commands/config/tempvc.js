@@ -58,7 +58,7 @@ module.exports = class extends Command {
     let properUsage = new MessageEmbed()
       .setColor(message.guild.me.displayHexColor)
       .setDescription(`${language.tempvc1.replace(/{prefix}/g, `${prefix}`)}`)
-      .setFooter({ text: "https://pogy.xyz/" });
+      .setFooter({ text: "Hogy ~ Ninja.69" });
 
     if (args.length < 1) {
       return message.channel.sendCustom(properUsage);
@@ -77,7 +77,7 @@ module.exports = class extends Command {
                 .setTitle(`${fail} ${language.missingUser} `)
                 .setDescription(`${language.tempvc2}`)
                 .setTimestamp()
-                .setFooter({ text: "https://pogy.xyz/" }),
+                .setFooter({ text: "Hogy ~ Ninja.69" }),
             ],
           })
           .setColor(message.guild.me.displayHexColor);
@@ -95,7 +95,7 @@ module.exports = class extends Command {
               .setDescription(
                 `${message.client.emoji.fail} ${language.tempvc3}`
               )
-              .setFooter({ text: "https://pogy.xyz/" }),
+              .setFooter({ text: "Hogy ~ Ninja.69" }),
           ],
         });
       await Vc.findOne(
@@ -136,7 +136,7 @@ module.exports = class extends Command {
                 .setDescription(
                   `${message.client.emoji.success} ${language.tempvc4}`
                 )
-                .setFooter({ text: "https://pogy.xyz/" }),
+                .setFooter({ text: "Hogy ~ Ninja.69" }),
             ],
           });
         }
@@ -155,7 +155,7 @@ module.exports = class extends Command {
                 .setTitle(`${fail} ${language.missingUser} `)
                 .setDescription(`${language.tempvc2}`)
                 .setTimestamp()
-                .setFooter({ text: "https://pogy.xyz/" }),
+                .setFooter({ text: "Hogy ~ Ninja.69" }),
             ],
           })
           .setColor(message.guild.me.displayHexColor);
@@ -179,7 +179,7 @@ module.exports = class extends Command {
           if (!category) {
             await embed
               .setDescription(`**${language.tempvc7}**`)
-              .setFooter({ text: `Pogy v2.0` })
+              .setFooter({ text: `hogy v1.0` })
               .setTimestamp();
             msg.edit({ embeds: [embed] }) +
               message.guild.channels.create(`Join to Create`, {
@@ -199,7 +199,7 @@ module.exports = class extends Command {
           } else {
             embed
               .setDescription(`**${language.tempvc8}**\n\nID: ${category.id}`)
-              .setFooter({ text: `Pogy v2.0` })
+              .setFooter({ text: `Hgy v1.0` })
               .setTimestamp();
             msg.edit({ embeds: [embed] });
           }
@@ -214,7 +214,7 @@ module.exports = class extends Command {
           if (!voice) {
             await embed
               .setDescription(`**${language.tempvc9}**`)
-              .setFooter({ text: `Pogy v2.0` })
+              .setFooter({ text: `Hogy v1.0` })
               .setTimestamp();
             msg.edit({ embeds: [embed] });
             +message.guild.channels
@@ -240,7 +240,7 @@ module.exports = class extends Command {
           } else {
             embed
               .setDescription(`**${language.tempvc10}**\n\nID: ${voice.id}`)
-              .setFooter({ text: `Pogy v2.0` })
+              .setFooter({ text: `Hogy v1.0` })
               .setTimestamp();
             msg.edit({ embeds: [embed] });
           }
@@ -253,7 +253,7 @@ module.exports = class extends Command {
               .setDescription(
                 `${language.tempvc11.replace(/{prefix}/g, `${prefix}`)}`
               )
-              .setFooter({ text: `Pogy v2.0` })
+              .setFooter({ text: `Hogy v1.0` })
               .setTimestamp();
             msg.edit({ embeds: [embed] });
             await Vc.findOne(
@@ -293,13 +293,13 @@ module.exports = class extends Command {
             embed
               .setAuthor(
                 `${language.tempvc12}`,
-                `https://v2.pogy.xyz/logo.png`,
+                `https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8`,
                 `${channelInv}`
               )
               .setDescription(
                 `**${language.tempvc13}** ${category.name}\n**${language.tempvc13} ID:** ${category.id}\n\n**${language.tempvc14}** ${voice.name}\n**${language.tempvc14} ID:** ${voice.id}\n\n${language.tempvc15} \`${prefix}tempvc off\` `
               )
-              .setFooter({ text: `Pogy v2.0` })
+              .setFooter({ text: `Hogy v1.0` })
               .setTimestamp();
             msg.edit({ embeds: [embed] });
             if (channelInv && channelVoice)

@@ -41,7 +41,7 @@ module.exports = class extends Command {
               message.author.displayAvatarURL({ format: "png" })
             )
             .setDescription(`${fail} ${language.suggesting1}`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setTimestamp()
             .setColor("RED"),
         ],
@@ -58,7 +58,7 @@ module.exports = class extends Command {
               message.author.displayAvatarURL({ format: "png" })
             )
             .setDescription(`${fail} ${language.suggesting2}`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setTimestamp()
             .setColor("RED"),
         ],
@@ -74,7 +74,7 @@ module.exports = class extends Command {
               message.author.displayAvatarURL({ format: "png" })
             )
             .setDescription(`${fail} ${language.suggest1}`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setTimestamp()
             .setColor("RED"),
         ],
@@ -89,7 +89,7 @@ module.exports = class extends Command {
               message.author.displayAvatarURL({ format: "png" })
             )
             .setDescription(`${fail} ${language.suggesting17}`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setTimestamp()
             .setColor("RED"),
         ],
@@ -122,7 +122,7 @@ module.exports = class extends Command {
         send(channelLog, {
           embeds: [log],
           name: `Suggestion Logs`,
-          icon: `https://v2.pogy.xyz/logo.png`,
+          icon: `https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8`,
         }).catch(() => {});
       }
     }
@@ -217,7 +217,7 @@ module.exports = class extends Command {
               message.author.displayAvatarURL({ format: "png" })
             )
             .setDescription(`${language.suggesting6} ${channel}`)
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setTimestamp()
             .setColor("GREEN"),
         ],

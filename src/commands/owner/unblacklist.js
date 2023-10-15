@@ -105,8 +105,8 @@ module.exports = class extends Command {
         .addField("Reason", reason);
 
       webhookClient.sendCustom({
-        username: "Pogy",
-        avatarURL: "https://v2.pogy.xyz/logo.png",
+        username: "Hogy",
+        avatarURL: "https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8",
         embeds: [embed],
       });
     }

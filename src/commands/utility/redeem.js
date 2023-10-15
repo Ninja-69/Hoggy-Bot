@@ -119,8 +119,8 @@ module.exports = class extends Command {
         .setColor(message.guild.me.displayHexColor);
 
       webhookClient.sendCustom({
-        username: "Pogy Premium",
-        avatarURL: `https://v2.pogy.xyz/logo.png`,
+        username: "Hogy Premium",
+        avatarURL: `https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8`,
         embeds: [embedPremium],
       });
     } else {

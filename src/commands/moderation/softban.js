@@ -11,7 +11,7 @@ module.exports = class extends Command {
       description: "Softban the specified user from the guild",
       category: "Moderation",
       usage: "<user> [reason]",
-      examples: ["softban @Peter Breaking the rules"],
+      examples: ["softban @Ninja Breaking the rules"],
       guildOnly: true,
       botPermission: ["BAN_MEMBERS"],
       userPermission: ["BAN_MEMBERS"],

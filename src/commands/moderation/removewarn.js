@@ -12,7 +12,7 @@ module.exports = class extends Command {
       description: "Remove a certain users warn",
       category: "Moderation",
       usage: "<user> [ID]",
-      examples: ["rw @peter iasdjas"],
+      examples: ["rw @ninja iasdjas"],
       guildOnly: true,
       userPermission: ["MANAGE_ROLES"],
     });

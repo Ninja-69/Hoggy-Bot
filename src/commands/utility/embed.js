@@ -11,7 +11,7 @@ module.exports = class extends Command {
     super(...args, {
       name: "embed",
       aliases: ["embedify", "MessageEmbed"],
-      description: `Make a custom embed builder with Pogy!`,
+      description: `Make a custom embed builder with Hogy!`,
       category: "Utility",
       guildOnly: true,
       cooldown: 5,
@@ -484,7 +484,7 @@ module.exports = class extends Command {
                                                                               )
                                                                               .setTimestamp()
                                                                               .setFooter(
-                                                                                "https://pogy.xyz"
+                                                                                "Hogy ~ Ninja.69"
                                                                               )
                                                                               .setColor(
                                                                                 message

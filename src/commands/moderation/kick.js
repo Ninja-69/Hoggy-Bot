@@ -11,7 +11,7 @@ module.exports = class extends Command {
       description: "Kicks the specified user from your Discord server.",
       category: "Moderation",
       usage: "<user> [reason]",
-      examples: ["kick @Peter Breaking the rules"],
+      examples: ["kick @Ninja Breaking the rules"],
       guildOnly: true,
       botPermission: ["KICK_MEMBERS"],
       userPermission: ["KICK_MEMBERS"],

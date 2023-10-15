@@ -11,7 +11,7 @@ module.exports = class extends Command {
     super(...args, {
       name: "reportbug",
       aliases: ["bugreport", "bug"],
-      description: "Report bugs to Pogy!",
+      description: "Report bugs to Hogy!",
       category: "Utility",
       usage: ["<text>"],
       cooldown: 60,
@@ -81,13 +81,13 @@ module.exports = class extends Command {
       .addField("Member", `${message.member}`, true)
       .addField("Message", `${report}`, true)
       .addField("Bug Report ID:", `#${id}`, true)
-      .setFooter({ text: "https://pogy.xyz/" })
+      .setFooter({ text: "Hogy ~ Ninja.69" })
       .setTimestamp()
       .setColor("GREEN");
 
     webhookClient.sendCustom({
-      username: "Pogy Bug Report",
-      avatarURL: `https://v2.pogy.xyz/logo.png`,
+      username: "Hogy Bug Report",
+      avatarURL: `https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/ef4861dd-a480-4735-8456-6cb8954797b8`,
       embeds: [embed],
     });
 

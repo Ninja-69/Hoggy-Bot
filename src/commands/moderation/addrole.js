@@ -10,7 +10,7 @@ module.exports = class extends Command {
       description: "Adds the specified role to the mentioned user",
       category: "Moderation",
       usage: "<user>",
-      examples: ["addrole @peter"],
+      examples: ["addrole @Ninja.69"],
       guildOnly: true,
       botPermission: ["MANAGE_ROLES"],
       userPermission: ["MANAGE_ROLES"],
@@ -38,7 +38,7 @@ module.exports = class extends Command {
             .setTitle(`${fail} Invalid User`)
             .setDescription(`Please Mention a Valid user mention / user ID`)
             .setTimestamp()
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(message.guild.me.displayHexColor),
         ],
       });
@@ -55,7 +55,7 @@ module.exports = class extends Command {
               `The Provided Role has an equal or higher role than you.`
             )
             .setTimestamp()
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(message.guild.me.displayHexColor),
         ],
       });
@@ -82,7 +82,7 @@ module.exports = class extends Command {
             .setTitle(`${fail} Invalid Role`)
             .setDescription(`Please Provide a Valid Role / Role ID`)
             .setTimestamp()
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(message.guild.me.displayHexColor),
         ],
       });
@@ -98,7 +98,7 @@ module.exports = class extends Command {
             .setTitle(`${fail} Role Error`)
             .setDescription(`The user already has that role.`)
             .setTimestamp()
-            .setFooter({ text: "https://pogy.xyz/" })
+            .setFooter({ text: "Hogy ~ Ninja.69" })
             .setColor(message.guild.me.displayHexColor),
         ],
       });

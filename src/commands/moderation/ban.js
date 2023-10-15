@@ -11,7 +11,7 @@ module.exports = class extends Command {
       description: "Bans the specified user from your Discord server.",
       category: "Moderation",
       usage: "<user> [reason]",
-      examples: ["ban @Peter Breaking the rules!"],
+      examples: ["ban @Ninja Breaking the rules!"],
       guildOnly: true,
       botPermission: ["BAN_MEMBERS"],
       userPermission: ["BAN_MEMBERS"],

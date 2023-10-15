@@ -6,7 +6,7 @@ module.exports = class extends Command {
   constructor(...args) {
     super(...args, {
       name: "support",
-      description: `Sends you Pogy's Support server`,
+      description: `Sends you Hogy's Support server`,
       category: "Utility",
       cooldown: 3,
     });

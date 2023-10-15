@@ -42,7 +42,7 @@ module.exports = class extends Command {
                 ? `\`In ${ms(user.lastVoted - Date.now() + DBL_INTERVAL, {
                     long: true,
                   })}\``
-                : "[`Available Now!`](https://top.gg/bot/767705905235099658/vote)"
+                : "[`Available Now!`](https://top.gg/bot/ur-bot/vote)"
             }\n\n__**Rewards:**__\n`
           )
           .setAuthor(
@@ -50,7 +50,7 @@ module.exports = class extends Command {
             message.author.displayAvatarURL({ dynamic: true })
           )
           .setColor(message.guild.me.displayHexColor)
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "Hogy ~ Ninja.69" })
           .setTimestamp(),
       ],
     });

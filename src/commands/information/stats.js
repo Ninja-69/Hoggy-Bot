@@ -71,14 +71,10 @@ module.exports = class extends Command {
     `;
     const devs = stripIndent`
      -------
-     ${language.pogyOwners}
-    • Peter_#4444
-    • Jano#6969
-     ${language.pogyDevelopers}
-    • Peter_#4444
-    • Jano#6969
-    and
-    pogy.xyz/team
+     ${language.HogyOwners}
+    • Ninja.69
+     ${language.HogyDevelopers}
+    • Ninja.69
     -------
     `;
     const embed = new MessageEmbed()
@@ -90,7 +86,7 @@ module.exports = class extends Command {
       .addField(`${language.pogyGeneral}`, `\`\`\`css\n${tech}\`\`\``, true)
       .addField(`${language.pogyTeam}`, `\`\`\`css\n${devs}\`\`\``, true)
       .addField(`${language.pogyStats}`, `\`\`\`css\n${serverStats}\`\`\``)
-      .setFooter({ text: `https://pogy.xyz` })
+      .setFooter({ text: `Hogy ~ Ninja.69` })
       .setTimestamp()
       .setColor(message.guild.me.displayHexColor);
     message.channel.sendCustom({ embeds: [embed] });

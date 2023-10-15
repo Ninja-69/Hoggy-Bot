@@ -62,7 +62,7 @@ module.exports = class extends Command {
       .setAuthor(message.author.tag, message.guild.iconURL({ dynamic: true }))
       .setDescription(description)
       .addField("Disabled Commands", disabledCommands, true)
-      .setFooter({ text: "https://pogy.xyz/" })
+      .setFooter({ text: "Hogy ~ Ninja.69" })
       .setTimestamp()
       .setColor(message.client.color.green);
     message.channel.sendCustom({ embeds: [embed] }).catch(() => {
@@ -70,7 +70,7 @@ module.exports = class extends Command {
         .setAuthor(message.author.tag, message.guild.iconURL({ dynamic: true }))
         .setDescription(description)
         .addField("Disabled Commands", `[Too Large to Display]`, true)
-        .setFooter({ text: "https://pogy.xyz/" })
+        .setFooter({ text: "Hogy ~ Ninja.69" })
         .setTimestamp()
         .setColor(message.client.color.green);
       message.channel.sendCustom(errorEmbed).catch(() => {});
