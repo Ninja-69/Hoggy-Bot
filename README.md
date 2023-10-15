@@ -1,7 +1,7 @@
 
 <h1 align="center">
  <br>
-  <a href="https://github.com/peterhanania"><img src="https://dev.pogy.gg/favicon.ico"></a>
+  <a href="https://github.com/Ninja-69/"><img src="https://dev.pogy.gg/favicon.ico"></a>
   <br>
   Hogy the Discord Bot [DiscordJS V13]
  <br>
