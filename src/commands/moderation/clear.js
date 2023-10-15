@@ -13,8 +13,8 @@ module.exports = class extends Command {
       examples: [
         "purge 20",
         "purge #general 10",
-        "purge @peter 50",
-        "purge #general @peter 5",
+        "purge @Ninja 50",
+        "purge #general @Ninja 5",
       ],
       guildOnly: true,
       botPermission: ["MANAGE_MESSAGES"],

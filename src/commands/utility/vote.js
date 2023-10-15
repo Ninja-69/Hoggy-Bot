@@ -7,7 +7,7 @@ module.exports = class extends Command {
   constructor(...args) {
     super(...args, {
       name: "vote",
-      description: "Pogys vote pages",
+      description: "hogys vote pages",
       category: "Utility",
       cooldown: 5,
     });

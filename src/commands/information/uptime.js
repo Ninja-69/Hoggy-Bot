@@ -8,7 +8,7 @@ module.exports = class extends Command {
       name: "uptime",
       aliases: ["ut", "uptime"],
       cooldown: 2,
-      description: "Sends you Pogy's Uptime!",
+      description: "Sends you hogy's Uptime!",
       category: "Information",
     });
   }

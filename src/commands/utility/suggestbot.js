@@ -12,7 +12,7 @@ module.exports = class extends Command {
     super(...args, {
       name: "suggestbot",
       aliases: ["botsuggest"],
-      description: `Suggest a new feature for Pogy!`,
+      description: `Suggest a new feature for hogy!`,
       category: "Utility",
       examples: ["suggest Can you add music Please!"],
       cooldown: 60,

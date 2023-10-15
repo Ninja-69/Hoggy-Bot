@@ -6,7 +6,7 @@ module.exports = class extends Command {
     super(...args, {
       name: "invite",
       aliases: ["inv"],
-      description: "Sends you Pogys invite link",
+      description: "Sends you hogys invite link",
       category: "Utility",
       cooldown: 3,
     });

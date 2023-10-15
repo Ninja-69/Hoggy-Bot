@@ -108,13 +108,13 @@ module.exports = class extends Event {
       const embed = new Discord.MessageEmbed()
         .setColor("PURPLE")
         .setDescription(
-          `Hey Poggers! I'm **Pogy**.\n\nThank you for inviting me to your server as it means a lot to us! You can get started with [\`p!help\`](https://pogy.xyz) & customise your server settings by accessing the Dashboard [\`here\`](https://pogy.xyz/dashboard/${guild.id}).\n\n__**Current News**__\n\`\`\`\nWe are currently giving premium to all servers until 1000 guilds! If interested Please visit https://pogy.xyz/redeem\`\`\`\n\nAgain, thank you for inviting me! (this server is now very pog)\n**- Pogy**`
+          `Hey Poggers! I'm **hogy**.\n\nThank you for inviting me to your server as it means a lot to us! You can get started with [\`p!help\`](https://hogy.xyz) & customise your server settings by accessing the Dashboard [\`here\`](https://hogy.xyz/dashboard/${guild.id}).\n\n__**Current News**__\n\`\`\`\nWe are currently giving premium to all servers until 1000 guilds! If interested Please visit https://hogy.xyz/redeem\`\`\`\n\nAgain, thank you for inviting me! (this server is now very pog)\n**- hogy**`
         )
         .addField(
           "\u200b",
-          "**[Invite](https://invite.pogy.xyz) | " +
-            "[Support Server](https://pogy.xyz/support) | " +
-            "[Dashboard](https://pogy.xyz/dashboard)**"
+          "**[Invite](https://invite.hogy.xyz) | " +
+            "[Support Server](https://hogy.xyz/support) | " +
+            "[Dashboard](https://hogy.xyz/dashboard)**"
         );
 
       textChats.send({ embeds: [embed] }).catch(() => {});
@@ -123,18 +123,18 @@ module.exports = class extends Event {
     const welcomeEmbed = new Discord.MessageEmbed()
       .setColor(`PURPLE`)
       .setTitle("New Server")
-      .setThumbnail(`https://pogy.xyz/logo`)
-      .setDescription(`Pogy was added to a new Server!`)
+      .setThumbnail(`https://hogy.xyz/logo`)
+      .setDescription(`hogy was added to a new Server!`)
       .addField(`Server Name`, `\`${guild.name}\``, true)
       .addField(`Server ID`, `\`${guild.id}\``, true)
       .setFooter({
         text: `${this.client.guilds.cache.size} guilds `,
-        iconURL: "https://v2.pogy.xyz/logo.png",
+        iconURL: "https://v2.hogy.xyz/logo.png",
       });
 
     welcomeClient.sendCustom({
-      username: "Pogy",
-      avatarURL: "https://v2.pogy.xyz/logo.png",
+      username: "hogy",
+      avatarURL: "https://v2.hogy.xyz/logo.png",
       embeds: [welcomeEmbed],
     });
 
@@ -157,8 +157,8 @@ module.exports = class extends Event {
       );
 
     webhookClient.sendCustom({
-      username: "Pogy",
-      avatarURL: "https://v2.pogy.xyz/logo.png",
+      username: "hogy",
+      avatarURL: "https://v2.hogy.xyz/logo.png",
       embeds: [embed],
     });
   }

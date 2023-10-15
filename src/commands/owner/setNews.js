@@ -1,5 +1,5 @@
 const Command = require("../../structures/Command");
-const NewsSchema = require("../../database/schemas/Pogy");
+const NewsSchema = require("../../database/schemas/hogy");
 
 module.exports = class extends Command {
   constructor(...args) {

@@ -10,7 +10,7 @@ module.exports = class extends Command {
       aliases: ["declineapplication", "declineappliction", "declineform"],
       usage: "<user> <app ID> <reason>",
       category: "Applications",
-      examples: ["decline @peter OERKSOAE underage"],
+      examples: ["decline @Ninja OERKSOAE underage"],
       description: "Decline an application in the guild.",
       cooldown: 5,
       userPermission: ["MANAGE_GUILD"],
@@ -29,7 +29,7 @@ module.exports = class extends Command {
           new discord.MessageEmbed()
             .setColor(message.guild.me.displayHexColor)
             .setDescription(
-              `${message.client.emoji.fail} | ${language.approvepremium}.\n\n[Check Premium Here](https://pogy.xyz/premium)`
+              `${message.client.emoji.fail} | ${language.approvepremium}.\n\n[Check Premium Here](https://hogy.xyz/premium)`
             ),
         ],
       });

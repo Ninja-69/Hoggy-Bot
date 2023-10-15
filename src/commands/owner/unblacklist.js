@@ -70,8 +70,8 @@ module.exports = class extends Command {
         .addField("Reason", reason);
 
       webhookClient.sendCustom({
-        username: "Pogy",
-        avatarURL: "https://v2.pogy.xyz/logo.png",
+        username: "hogy",
+        avatarURL: "https://v2.hogy.xyz/logo.png",
         embeds: [embed],
       });
 

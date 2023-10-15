@@ -47,13 +47,13 @@ window.onload = () => {
       embed: {
         title: "Hello! :wave:",
         description:
-          "You can use [links](https://pogy.xyz) or emojis :smile: :eyes:\n```\nAnd also code blocks\n```",
+          "You can use [links](https://hogy.xyz) or emojis :smile: :eyes:\n```\nAnd also code blocks\n```",
         color: 4321431,
         timestamp: new Date().toISOString(),
-        url: "https://pogy.xyz",
+        url: "https://hogy.xyz",
         author: {
           name: "Author name",
-          url: "https://pogy.xyz",
+          url: "https://hogy.xyz",
           icon_url: "https://i.imgur.com/sGUVicW.png",
         },
         thumbnail: {
@@ -1094,7 +1094,7 @@ window.onload = () => {
       return error("Command length exceeds 30 characters.", 4000);
 
     error(
-      'Successfully saved command, if not saved, <a href="https://pogy.xyz/embeds">read here</a>',
+      'Successfully saved command, if not saved, <a href="https://hogy.xyz/embeds">read here</a>',
       10000
     );
     e.preventDefault();

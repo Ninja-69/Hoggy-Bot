@@ -9,7 +9,7 @@ module.exports = class extends Command {
       description: "awooify someone!",
       category: "Images",
       usage: "<user>",
-      examples: ["awooify @peter"],
+      examples: ["awooify @Ninja"],
       cooldown: 5,
     });
   }

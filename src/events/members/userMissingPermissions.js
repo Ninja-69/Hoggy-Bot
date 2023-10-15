@@ -13,7 +13,7 @@ module.exports = class extends Event {
         `Required Permission: \`${permissions.replace("_", " ")}\``
       )
       .setTimestamp()
-      .setFooter({ text: "https://pogy.xyz/" })
+      .setFooter({ text: "https://hogy.xyz/" })
       .setColor(message.guild.me.displayHexColor);
     if (
       message.channel &&

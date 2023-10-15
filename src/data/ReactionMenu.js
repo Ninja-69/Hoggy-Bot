@@ -29,7 +29,7 @@ module.exports = class ReactionMenu {
     timeout = 180000
   ) {
     /**
-     * The Peter Client
+     * The Ninja Client
      * @type {Client}
      */
     this.client = client;

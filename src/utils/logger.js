@@ -33,7 +33,7 @@ const logger = createLogger({
   ),
   transports: [
     new transports.Console(),
-    new transports.File({ filename: "./src/assets/logs/Pogy.log" }),
+    new transports.File({ filename: "./src/assets/logs/hogy.log" }),
   ],
 });
 

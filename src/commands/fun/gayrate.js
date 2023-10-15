@@ -10,7 +10,7 @@ module.exports = class extends Command {
       description: "See how gay you are",
       category: "Fun",
       usage: "[user]",
-      examples: ["howgay @Peter"],
+      examples: ["howgay @Ninja"],
       cooldown: 3,
     });
   }

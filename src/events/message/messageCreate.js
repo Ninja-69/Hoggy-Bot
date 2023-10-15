@@ -73,13 +73,13 @@ module.exports = class extends Event {
           settings.prefix || "!"
         }help    ]\`\`\``;
         const embed = new MessageEmbed()
-          .setTitle("Hello, I'm Pogy. What's Up?")
+          .setTitle("Hello, I'm hogy. What's Up?")
           .addField(`Prefix`, proofita, true)
           .addField(`Usage`, proofitaa, true)
           .setDescription(
-            `\nIf you like Pogy, Consider [voting](https://top.gg/bot/767705905235099658), or [inviting](${config.invite_link}) it to your server! Thank you for using Pogy, we hope you enjoy it, as we always look forward to improve the bot`
+            `\nIf you like hogy, Consider [voting](https://top.gg/bot/767705905235099658), or [inviting](${config.invite_link}) it to your server! Thank you for using hogy, we hope you enjoy it, as we always look forward to improve the bot`
           )
-          .setFooter("Thank you for using Pogy!!")
+          .setFooter("Thank you for using hogy!!")
           .setColor("#FF2C98");
         message.channel.sendCustom(embed);
       }
@@ -122,7 +122,7 @@ module.exports = class extends Event {
           if (maintenanceCooldown.has(message.author.id)) return;
 
           message.channel.sendCustom(
-            `Pogy is currently undergoing maintenance which won't allow anyone to access Pogy's Commands. Feel free to try again later. For updates: ${config.discord}`
+            `hogy is currently undergoing maintenance which won't allow anyone to access hogy's Commands. Feel free to try again later. For updates: ${config.discord}`
           );
 
           maintenanceCooldown.add(message.author.id);
@@ -191,11 +191,11 @@ module.exports = class extends Event {
                 message.author
               }\n\n${
                 number === 1
-                  ? "*Did You know that Pogy has its own dashboard? `https://pogy.xyz/dashboard`*"
+                  ? "*Did You know that hogy has its own dashboard? `https://hogy.xyz/dashboard`*"
                   : ""
               }${
                 number === 2
-                  ? "*You can check our top.gg page at `https://vote.pogy.xyz`*"
+                  ? "*You can check our top.gg page at `https://vote.hogy.xyz`*"
                   : ""
               }`
             )
@@ -228,7 +228,7 @@ module.exports = class extends Event {
                   .join(" - ")}**`
               )
               .setTimestamp()
-              .setFooter("https://pogy.xyz")
+              .setFooter("https://hogy.xyz")
               .setColor(message.guild.me.displayHexColor);
             return message.channel.sendCustom(embed).catch(() => {});
           }
@@ -254,7 +254,7 @@ module.exports = class extends Event {
                   .join("\n")}**`
               )
               .setTimestamp()
-              .setFooter("https://pogy.xyz")
+              .setFooter("https://hogy.xyz")
               .setColor(message.guild.me.displayHexColor);
             return message.channel.sendCustom(embed).catch(() => {});
           }

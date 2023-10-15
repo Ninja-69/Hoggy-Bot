@@ -48,35 +48,35 @@ module.exports = class extends Event {
         let addEmbed = new MessageEmbed()
           .setAuthor(
             "Role Added",
-            `https://v2.pogy.xyz/logo.png`,
+            `https://v2.hogy.xyz/logo.png`,
             `${message.url}`
           )
           .setDescription(
             `You have recieved the **${rrRole.name}** Role by reacting in ${guildName}`
           )
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "https://hogy.xyz/" })
           .setColor(message.client.color.green);
 
         let remEmbed = new MessageEmbed()
           .setAuthor(
             "Role Removed",
-            `https://v2.pogy.xyz/logo.png`,
+            `https://v2.hogy.xyz/logo.png`,
             `${message.url}`
           )
           .setDescription(
             `You have removed the **${rrRole.name}** Role by reacting in ${guildName}`
           )
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "https://hogy.xyz/" })
           .setColor(message.client.color.green);
 
         let errorReaction = new MessageEmbed()
           .setAuthor(
             "Reaction Error",
-            `https://v2.pogy.xyz/logo.png`,
+            `https://v2.hogy.xyz/logo.png`,
             `${message.url}`
           )
           .setDescription(`A reaction error has occured!`)
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "https://hogy.xyz/" })
           .setColor(message.client.color.green);
 
         if (reactionCooldown.has(user.id)) return;

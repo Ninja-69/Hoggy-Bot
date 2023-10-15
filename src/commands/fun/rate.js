@@ -33,7 +33,7 @@ module.exports = class extends Command {
     if (item.length > 40)
       return message.channel.sendCustom(`${language.rate2}`);
 
-    if (item.toUpperCase().startsWith("POGY"))
+    if (item.toUpperCase().startsWith("hogy"))
       return message.channel.sendCustom(`${language.rate3}`);
 
     return message.channel

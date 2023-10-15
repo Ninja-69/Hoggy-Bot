@@ -83,11 +83,11 @@ module.exports = class extends Command {
             });
           });
 
-        let pogy = message.guild.me;
+        let hogy = message.guild.me;
         let everyone = message.guild.roles.everyone;
 
         message.channel.permissionOverwrites
-          .edit(pogy, {
+          .edit(hogy, {
             VIEW_CHANNEL: true,
 
             SEND_MESSAGES: true,

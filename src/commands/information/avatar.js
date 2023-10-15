@@ -11,7 +11,7 @@ module.exports = class extends Command {
       usage: "[user]",
       description: "Displays a user's avatar",
       category: "Information",
-      examples: ["av", "av @Peter"],
+      examples: ["av", "av @Ninja"],
       cooldown: 3,
     });
   }

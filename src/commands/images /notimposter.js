@@ -10,7 +10,7 @@ module.exports = class extends Command {
       description: "Someone was not the impostor",
       category: "Images",
       usage: "<text>",
-      examples: ["notimpostor Peter"],
+      examples: ["notimpostor Ninja"],
       cooldown: 5,
       guildOnly: true,
     });

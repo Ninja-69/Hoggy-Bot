@@ -9,7 +9,7 @@ module.exports = class extends Command {
     super(...args, {
       name: "stats",
       aliases: ["s", "botinfo"],
-      description: "Displays Pogys Statistics",
+      description: "Displays hogys Statistics",
       category: "Information",
       cooldown: 3,
     });
@@ -57,7 +57,7 @@ module.exports = class extends Command {
     const tech = stripIndent`
       Ping -- ${Math.round(message.client.ws.ping)}ms
       Uptime  -- ${uptime}
-      ${language.pogyVersion} -- 2.0
+      ${language.hogyVersion} -- 2.0
       Library -- Discord.js v13.6.0
       Environment -- Node.js v16.9.1
       Servers -- ${message.client.guilds.cache.size}
@@ -66,7 +66,7 @@ module.exports = class extends Command {
       0
     )}
       ${language.channels} -- ${message.client.channels.cache.size}
-      ${language.pogyCommands} -- ${message.client.botCommands.size}
+      ${language.hogyCommands} -- ${message.client.botCommands.size}
       Aliases -- ${message.client.aliases.size}
     `;
     const devs = stripIndent`
@@ -82,10 +82,10 @@ module.exports = class extends Command {
         message.member.displayName,
         message.author.displayAvatarURL({ dynamic: true })
       )
-      .setTitle(`${language.pogyInfo}`)
-      .addField(`${language.pogyGeneral}`, `\`\`\`css\n${tech}\`\`\``, true)
-      .addField(`${language.pogyTeam}`, `\`\`\`css\n${devs}\`\`\``, true)
-      .addField(`${language.pogyStats}`, `\`\`\`css\n${serverStats}\`\`\``)
+      .setTitle(`${language.hogyInfo}`)
+      .addField(`${language.hogyGeneral}`, `\`\`\`css\n${tech}\`\`\``, true)
+      .addField(`${language.hogyTeam}`, `\`\`\`css\n${devs}\`\`\``, true)
+      .addField(`${language.hogyStats}`, `\`\`\`css\n${serverStats}\`\`\``)
       .setFooter({ text: `Hogy ~ Ninja.69` })
       .setTimestamp()
       .setColor(message.guild.me.displayHexColor);

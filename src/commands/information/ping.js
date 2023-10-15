@@ -7,7 +7,7 @@ module.exports = class extends Command {
     super(...args, {
       name: "ping",
       aliases: ["latency"],
-      description: "Check's Pogy's latency",
+      description: "Check's hogy's latency",
       category: "Information",
       cooldown: 5,
     });

@@ -66,11 +66,11 @@ module.exports = class extends Command {
               ],
             });
 
-          let pogy = message.guild.me;
+          let hogy = message.guild.me;
           let everyone = message.guild.roles.everyone;
           let author = message.author;
 
-          message.channel.permissionOverwrites.edit(pogy, {
+          message.channel.permissionOverwrites.edit(hogy, {
             VIEW_CHANNEL: true,
 
             SEND_MESSAGES: true,

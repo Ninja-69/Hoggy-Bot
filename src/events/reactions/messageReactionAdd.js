@@ -66,37 +66,37 @@ module.exports = class extends Event {
         let addEmbed = new MessageEmbed()
           .setAuthor(
             "Role Added",
-            `https://v2.pogy.xyz/logo.png`,
+            `https://v2.hogy.xyz/logo.png`,
             `${message.url}`
           )
           .setDescription(
             `You have recieved the **${rrRole.name}** Role by reacting in ${guildName}`
           )
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "https://hogy.xyz/" })
           .setColor(message.client.color.green);
 
         let remEmbed = new MessageEmbed()
           .setAuthor(
             "Role Removed",
-            `https://v2.pogy.xyz/logo.png`,
+            `https://v2.hogy.xyz/logo.png`,
             `${message.url}`
           )
           .setDescription(
             `You have removed the **${rrRole.name}** Role by reacting in ${guildName}`
           )
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "https://hogy.xyz/" })
           .setColor(message.client.color.green);
 
         let errorReaction = new MessageEmbed()
           .setAuthor(
             "Reaction Role Error",
-            `https://v2.pogy.xyz/logo.png`,
+            `https://v2.hogy.xyz/logo.png`,
             `${message.url}`
           )
           .setDescription(
             `${message.client.emoji.fail} Failed to Add the role, since I'm Missing the Manage Roles Permission.\n\nPlease let an admin Know.`
           )
-          .setFooter({ text: "https://pogy.xyz/" })
+          .setFooter({ text: "https://hogy.xyz/" })
           .setColor(message.client.color.green);
 
         if (reactionCooldown.has(user.id)) {
@@ -425,7 +425,7 @@ module.exports = class extends Event {
                           `You already have ${arraylength} open tickets, as the current guild's ticket limit is ${ticketlimit} `
                         )
                         .setAuthor(user.tag, user.displayAvatarURL())
-                        .setFooter({ text: "https://pogy.xyz/" }),
+                        .setFooter({ text: "https://hogy.xyz/" }),
                     ],
                   })
                   .then((m) => {
@@ -539,7 +539,7 @@ module.exports = class extends Event {
                           `Please use \`${prefix}close\` to close the ticket.`
                         )
                         .setColor(message.client.color.red)
-                        .setFooter({ text: "https://pogy.xyz/" }),
+                        .setFooter({ text: "https://hogy.xyz/" }),
                     ],
                   });
 
@@ -548,7 +548,7 @@ module.exports = class extends Event {
 
                   const embedLog = new discord.MessageEmbed()
                     .setColor(color2)
-                    .setFooter({ text: "https://pogy.xyz/" })
+                    .setFooter({ text: "https://hogy.xyz/" })
                     .setTitle("Ticket Created")
                     .setTimestamp()
                     .addField(
@@ -564,7 +564,7 @@ module.exports = class extends Event {
                     send(ticketLog, {
                       embeds: [embedLog],
                       name: `Ticket Logs`,
-                      icon: `https://v2.pogy.xyz/logo.png`,
+                      icon: `https://v2.hogy.xyz/logo.png`,
                     }).catch(() => {});
                   }
                 })

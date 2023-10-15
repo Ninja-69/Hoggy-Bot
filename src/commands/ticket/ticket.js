@@ -67,7 +67,7 @@ module.exports = class extends Command {
         let ticketCategory = message.guild.channels.cache.get(db.categoryID);
         let ticketLog = message.guild.channels.cache.get(db.ticketModlogID);
 
-        let pogy = message.guild.me;
+        let hogy = message.guild.me;
         let everyone = message.guild.roles.everyone;
 
         let user = message.author;
@@ -137,8 +137,8 @@ module.exports = class extends Command {
           message.guild.channels
             .create(chann, { type: "GUILD_TEXT" })
             .then(async (chan) => {
-              if (pogy) {
-                chan.permissionOverwrites.edit(pogy, {
+              if (hogy) {
+                chan.permissionOverwrites.edit(hogy, {
                   VIEW_CHANNEL: true,
 
                   SEND_MESSAGES: true,

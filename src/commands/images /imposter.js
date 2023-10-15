@@ -11,7 +11,7 @@ module.exports = class extends Command {
       description: "Be an impostor",
       category: "Images",
       usage: "<text>",
-      examples: ["imposter Peter"],
+      examples: ["imposter Ninja"],
       cooldown: 5,
       guildOnly: true,
     });

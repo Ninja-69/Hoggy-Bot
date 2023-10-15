@@ -14,7 +14,7 @@ module.exports = class extends Command {
       description: "Check a certain users warnings",
       category: "Moderation",
       usage: "<user>",
-      examples: ["warnings @Peter"],
+      examples: ["warnings @Ninja"],
       guildOnly: true,
       botPermission: ["ADD_REACTIONS"],
       userPermissions: ["KICK_MEMBERS"],
