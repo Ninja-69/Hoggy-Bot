@@ -23,8 +23,8 @@ client.loadEvents("src/events");
 process.on("unhandledRejection", (err) => client.logger.error(`Unhandled exception`, err));
 
 (async () => {
-  // check for updates
-  await checkForUpdates();
+
+
 
   // start the dashboard
   if (client.config.DASHBOARD.enabled) {

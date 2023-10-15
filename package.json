@@ -3,8 +3,8 @@
   "version": "5.4.0",
   "description": "An open-source, multipurpose discord bot built using discord-js",
   "main": "bot.js",
-  "author": "Sai Teja M",
-  "license": "ISC",
+  "author": "Ninja",
+  "license": "Apache",
   "engines": {
     "node": ">=16.11.0"
   },
