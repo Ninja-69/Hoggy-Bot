@@ -27,17 +27,17 @@
 ## 🔗 Resource Links
 
 - 🤖 Demo Bot: [Invite Here](https://discord.com/api/oauth2/authorize?client_id=1163016531886735443&permissions=8&scope=bot)
-- 🤝 Support Server: [Join Here](https://discord.com/invite/hk9e2CdGDP)
+- 🗿 Support Server: [Join Here](https://discord.com/invite/hk9e2CdGDP)
 
 
 
-## 📦 Prerequisites
+## 🌠 Prerequisites
 
 - [Node.js](https://nodejs.org/en/) v16.11.0 or higher
 - [Git](https://git-scm.com/downloads)
 - [MongoDB](https://www.mongodb.com)
 
-## 🚀 Getting Started
+## ⚡ Getting Started
 
 - Open the terminal and run the following commands
 
@@ -56,7 +56,7 @@ If you need any additional help, make sure to join our server [here](https://dis
 
 <br>
 
-<h1 align="center"> ✨ Features ✨ </h1>
+<h1 align="center"> ⭐ Features ⭐ </h1>
 
 ### 📡 **Advanced Dashboard**
  
@@ -64,7 +64,7 @@ If you need any additional help, make sure to join our server [here](https://dis
 - Manage your servers and make your server-specific settings!
 - Make custom adjustments easy!
 
-### 🛑 **Powerful Moderation:**
+### ⚠️ **Powerful Moderation:**
 
 - **Moderation Commands.** <br /> _Commands:_ `ban`, `unban`, `timeout`, `voice moderation`, `deafen`, `move`, `warn`, `setnick`, ...
 - **Multi-Function Purge Commands.** <br /> _Commands:_ `purge`, `purge attach`, `purge bots`, `purge links`, `purge token`, `purge user`, ...
