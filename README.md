@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/saiteja-madha"><img src="https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/81850565-045b-400f-9f85-463e6e931ab6" height="200" alt="Discord.js v14 Bot"></a>
+  <a href="https://github.com/saiteja-madha"><img src="[https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/81850565-045b-400f-9f85-463e6e931ab6](https://github.com/Ninja-69/Hoggy-Bot/assets/130167556/c7219276-8f97-4fde-bc2f-e40c0bcaa103)" height="200" alt="Discord.js v14 Bot"></a>
   <br>
   Discord.js v14 Bot
   <br>
