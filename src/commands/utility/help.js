@@ -281,33 +281,9 @@ function getSlashCategoryEmbeds(client, category) {
 function getMsgCategoryEmbeds(client, category, prefix) {
   let collector = "";
 
-  // For IMAGE Category
-  if (category === "IMAGE") {
-    client.commands
-      .filter((cmd) => cmd.category === category)
-      .forEach((cmd) =>
-        cmd.command.aliases.forEach((alias) => {
-          collector += `\`${alias}\`, `;
-        })
-      );
 
-    collector +=
-      "\n\nYou can use these image commands in following formats\n" +
-      `**${prefix}cmd:** Picks message authors avatar as image\n` +
-      `**${prefix}cmd <@member>:** Picks mentioned members avatar as image\n` +
-      `**${prefix}cmd <url>:** Picks image from provided URL\n` +
-      `**${prefix}cmd [attachment]:** Picks attachment image`;
 
-    const embed = new EmbedBuilder()
-      .setColor(EMBED_COLORS.BOT_EMBED)
-      .setThumbnail(CommandCategory[category]?.image)
-      .setAuthor({ name: `${category} Commands` })
-      .setDescription(collector);
-
-    return [embed];
-  }
-
-  // For REMAINING Categories
+  // For category 
   const commands = client.commands.filter((cmd) => cmd.category === category);
 
   if (commands.length === 0) {
