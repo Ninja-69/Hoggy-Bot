@@ -54,6 +54,7 @@ npm install
 
 If you need any additional help, make sure to join our server [here](https://discord.com/invite/hk9e2CdGDP)
 
+[![Run on Repl.it](https://replit.com/badge/github/Ninja-69/Hoggy-Bot)](https://replit.com/new/github/Ninja-69/Hoggy-Bot)
 <br>
 
 <h1 align="center"> ⭐ Features ⭐ </h1>
