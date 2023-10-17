@@ -52,7 +52,7 @@ npm install
 - Optionally edit `config.js`
 - Type `npm run start` to start the bot
 
-If you need any additional help, make sure to join our server [here](https://discord.com/invite/hk9e2CdGDP)
+If you need any additional help, make sure to checkout guide by our Developer [here](https://github.com/Ninja-69/Hoggy-Bot/wiki)
 
 [![Run on Repl.it](https://replit.com/badge/github/Ninja-69/Hoggy-Bot)](https://replit.com/new/github/Ninja-69/Hoggy-Bot)
 <br>
