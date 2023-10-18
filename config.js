@@ -35,13 +35,6 @@ module.exports = {
     DM_EMBED: "#36393F",
   },
 
-  DASHBOARD: {
-    enabled: false, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
-    port: "8080", // port to run the bot on
-  },
-
   ECONOMY: {
     ENABLED: false,
     CURRENCY: "₪",
@@ -73,11 +66,6 @@ module.exports = {
     REACTION: "🎁",
     START_EMBED: "#FF468A",
     END_EMBED: "#FF468A",
-  },
-
-  IMAGE: {
-    ENABLED: false,
-    BASE_API: "https://strangeapi.fun/api",
   },
 
   INVITE: {
