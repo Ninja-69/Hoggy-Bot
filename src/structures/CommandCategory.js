@@ -34,12 +34,6 @@ module.exports = {
     image: "https://cdn-icons-png.flaticon.com/512/4470/4470928.png",
     emoji: "🎉",
   },
-  IMAGE: {
-    name: "Image",
-    enabled: config.IMAGE.ENABLED,
-    image: "https://icons.iconarchive.com/icons/dapino/summer-holiday/128/photo-icon.png",
-    emoji: "🖼️",
-  },
   INVITE: {
     name: "Invite",
     enabled: config.INVITE.ENABLED,
